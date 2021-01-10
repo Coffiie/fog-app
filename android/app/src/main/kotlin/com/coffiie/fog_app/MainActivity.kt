@@ -1,4 +1,4 @@
-package com.example.fog_app
+package com.coffiie.fog_app
 
 import io.flutter.embedding.android.FlutterActivity
 
