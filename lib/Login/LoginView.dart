@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fog_app/Map/MapView.dart';
 import 'package:fog_app/widgets/InputWidget.dart';
 
 class LoginView extends StatelessWidget {
@@ -53,6 +54,7 @@ class LoginView extends StatelessWidget {
                       ),
                       onPressed: () {
                         //handleLogin
+                        Navigator.push(context, MaterialPageRoute(builder: (bCtx)=>MapView()));
                       },
                     ),
                   )
