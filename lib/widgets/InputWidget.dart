@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 class InputWidget extends StatelessWidget {
-  TextInputType textInputType;
-  String errorText;
-  String labelText;
-  bool obscureText;
-  TextEditingController controller;
-  IconData suffixIcon;
+  final TextInputType textInputType;
+  final String errorText;
+  final String labelText;
+  final bool obscureText;
+  final TextEditingController controller;
+  final IconData suffixIcon;
 
 
   InputWidget({this.suffixIcon,this.textInputType,this.errorText,this.labelText,this.obscureText = false,this.controller});
