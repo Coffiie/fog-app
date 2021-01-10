@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fog_app/Login/LoginView.dart';
 import 'package:fog_app/widgets/InputWidget.dart';
 
 class RegisterView extends StatelessWidget {
@@ -76,6 +77,7 @@ class RegisterView extends StatelessWidget {
                     child: Text("Sign in", style: TextStyle(fontSize: 16)),
                     onPressed: () {
                       //go to sign in page
+                      Navigator.push(context, MaterialPageRoute(builder: (bCtx)=> LoginView() ));
                     },
                   )
                 ],
